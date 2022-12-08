@@ -11,6 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Merienda:wght@400;700&display=swap"
         rel="stylesheet">
      <link rel="shortcut icon" href="./resources/images/Victor castillo icon.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=M+PLUS+1p:wght@400;500&family=Merienda:wght@400;700&display=swap"
+            rel="stylesheet">
 </head>
 <body>
     <header>
@@ -29,6 +33,24 @@
     </header>
     <main>
         <section id="frontpage">
+            <div class="about-me">
+                <img src="./resources/images/_DSC0635.png" alt="my picture" id="picture">
+                <h2>About me</h2>
+                <p>Hi, my name is Victor Castillo. I am a Full Stack Engineer student at Codecademy. I am currently learning HTML,
+                    CSS, Javascript, and Node. I am also learning how to use Git and GitHub. I am looking forward to learning more
+                    about Full Stack Engineering.</p>
+                <ul class="projectslist">
+                    <h2>Projects</h2>
+                    <div class="tea-cozy">
+                        <a href="https://victorcastilloa.github.io/Tea-Cozy/" target="_blank" title="Tea Cozy">
+                            <li>Tea Cozy Demo Website</li>
+                        </a>
+                    </div>
+                    <div class="chadayka">
+                        <a href="https://victorcastilloa.github.io/Chadayka/" target="_blank" title="Chadayka">
+                            <li>Chadayka Beauty Center Demo</li>
+                        </a>
+                </ul>
             <div class="left-text-container">
                 <img src="./resources/images/Victor castillo.png" alt="Victor Castillo" class="logo-big">
             <ul>
@@ -38,24 +60,14 @@
                 <li>Node</li>
             </ul>
         </div> 
-        <div id="projects">
-            <img src="./resources/images/_DSC0635.png" alt="my picture" id="picture">
-            <ul class="projectslist">
-                <h2>Projects</h2>
-                <div class="tea-cozy">
-                <a href="https://victorcastilloa.github.io/Tea-Cozy/" target="_blank" title="Tea Cozy"><li>Tea Cozy Demo Website</li></a>
-                </div>
-                <div class="chadayka">
-                <a href="https://victorcastilloa.github.io/Chadayka/" target="_blank" title="Chadayka"><li>Chadayka Beauty Center Demo</li></a>
-                </div>
-            </ul>
-        </div>
         </section>
-        <section id="fortune-words">
-            <div>
-                <label for="fortune"><p>Your free fortune phrase.</p></label>
-                <textarea name="fortune" id="fortune" cols="30" rows="5">
-                </textarea>
+        <section id="bottom">
+            <div class="script">
+                <h2>Javascript random phrase generator</h2>
+                <p>Refresh the page if you need to get another phrase</p>
+                <div id="fortune">
+                </div>
+                <input type="button" name="generate" id="generate" value="Generate">
             </div>
             <div class="social-media-icons">
                 <p>Click image to visit</p>
