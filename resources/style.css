@@ -9,7 +9,7 @@ body{
 
 .logo {
     color: seashell;
-    font-family: 'La Belle Aurore', cursive;!important;
+    font-family: 'La Belle Aurore', cursive;
     font-size: 4rem;
     position: relative;
 }
@@ -107,15 +107,15 @@ main {
     border: 1px outset seashell;
 }
  
-.tea-cozy:hover {
+.projectslist li:hover {
     background-color: seashell;
-    color: black!important;
+    color: black;
     border: 1px inset gold;
 }
 
- .tea-cozy:active {
-    background-color: gold;
-    color: black!important;
+.projectslist li:active {
+    background-color: lightblue;
+    color: black;
     border: lightslategray 1px inset;
 }
 
@@ -128,18 +128,6 @@ main {
     margin-bottom: 5%;
     text-align: center;
     border: 1px outset seashell;
-}
-
-.chadayka:hover {
-    background-color: seashell;
-    color: black!important;
-    border: 1px inset gold;
-}
-
-.chadayka:active {
-    background-color: gold;
-    color: black!important;
-    border: lightslategray 1px inset;
 }
 
 .projectslist h2 {
@@ -161,9 +149,15 @@ main {
     text-align: center;
 }
 
-.left-text-container ul {
-    font-size: 2rem;
-    list-style-type: none;
+.technologies {
+    font-size: 1.3rem;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+.technologies h5 {
+        font-family: 'Indie Flower', cursive;
+        font-size: 2rem;
+        line-height: 0.1;
 }
 
 #bottom {
@@ -173,6 +167,7 @@ main {
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
+
 }
 
 
